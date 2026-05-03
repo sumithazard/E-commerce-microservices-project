@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "aluruarumullaa1"
+  bucket = "sumit09ecommerce01"
 
   tags = {
-    Name        = "aluruarumullaa1"
+    Name        = "sumit09ecommerce01"
     Environment = "dev"
   }
 }
@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "arumullaaluruu1"
+  bucket = "sumit09ecommerce02"
 
   tags = {
-    Name        = "arumullaaluruu1"
+    Name        = "sumit09ecommerce02"
     Environment = "dev"
   }
 }
