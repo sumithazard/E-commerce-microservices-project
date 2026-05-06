@@ -44,7 +44,7 @@ spec:
           grpc:
             port: 50051
         resources:
-          requests:
+          requests: 
             cpu: 100m
             memory: 64Mi
           limits:
